@@ -1,0 +1,41 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 20px 30px;
+    background-color: whitesmoke;
+    border-bottom: 2px solid rgb(206, 206, 206);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.eachNavBarItem {
+    font-size: 18px;
+    padding-right: 18px;
+}
+.eachNavBarItem:hover {
+    padding-right: 18px;
+    color: #fe6b40;
+}
+
+.navBarCTA {
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+.navBarCTA:hover {
+    color: black;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #fe6b40;
+}

@@ -1,0 +1,100 @@
+/* .test {
+    filter: blur(5px); 
+} */
+
+.headerContainer {
+    height: 100vh;
+    display: flex;
+    z-index: 9999;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    background-position-x: left;
+    /* opacity: 0.2; */
+    /* background-color: #ffb366; */
+    /* background-color: #68B984; */
+    /* border: 1px solid red; */
+    padding: 0px 150px;
+}
+
+.headerDescription {
+    width: fit-content;
+    margin: auto auto;
+    padding: 40px 60px;
+    border-radius: 25px;
+    /* border: 1px solid red; */
+    /* background-color: #ffb366; */
+}
+
+.mottoAndTagline {
+    width: 30vw;
+    text-align: center;
+}
+
+.motto {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/* HEADER BUTTONS */
+.headerBtns {
+    display: flex;
+    justify-content: center;
+}
+
+.headerCTA {
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.headerCTA:hover {
+    background-color: #fe6b40;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.headerSecondaryBtn {
+    /* background-color: orange; */
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.headerSecondaryBtn:hover {
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #68B984;
+    width: 150px;
+    text-align: center;
+}
+
+/* HEADER IMAGES */
+.headerImagesContainer {
+    margin: auto auto;
+}
+.headerImages {
+    width: 25vw;
+    border-radius: 60px;
+}

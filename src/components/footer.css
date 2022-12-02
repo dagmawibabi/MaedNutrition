@@ -1,0 +1,14 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(12, 12, 12, 0.921);
+    height: 20vh;
+    color: white;
+}
+
+.footerColumns {
+    display: block;
+}
+
+
+
