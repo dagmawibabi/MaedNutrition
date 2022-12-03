@@ -14,6 +14,7 @@
     /* background-color: #68B984; */
     /* border: 1px solid red; */
     padding: 0px 150px;
+    /* background-color: rgb(239, 255, 239); */
 }
 
 .headerDescription {
@@ -81,11 +82,11 @@
 }
 
 .headerSecondaryBtn:hover {
-    border: 1px solid green;
+    border: 1px solid greenyellow;
     border-radius: 25px;
     padding: 10px 25px;
     font-size: 20px;
-    background-color: #68B984;
+    background-color: #76eb9f;
     width: 150px;
     text-align: center;
 }

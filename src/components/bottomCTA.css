@@ -1,0 +1,36 @@
+.bottomCTAContainer {
+    /* height: 30vh; */
+    padding: 100px 20px 100px;
+    text-align: center;
+}
+
+.bottomCTAs {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.eachBottomCTA {
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: 1px solid black;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.eachBottomCTA:hover {
+    background-color: greenyellow;
+}
+
+.primaryBottomCTA {
+    background-color: orange;
+}
+
+.primaryBottomCTA:hover {
+    background-color: orangered;
+}
+
+
+

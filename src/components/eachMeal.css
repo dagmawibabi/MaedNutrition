@@ -11,16 +11,56 @@
     border: 2px solid black;
     margin: auto auto;
 }
-.eachMeal:hover {
-    transform: scale(1.1);
-}
 
+.eachMeal:hover {
+    /* transform: scale(1.1); */
+    /* animation: scaleup11 1s linear forward; */
+    animation-name: scaleup11;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 50px 5px rgb(205, 255, 205);
+}
+.eachMeal:hover .eachFoodDetail {
+    /* transform: scale(1.1); */
+    /* animation: scaleup11 1s linear forward; */
+    animation-name: scaleup11;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+.eachMeal:hover .eachMealCompositionContainer {
+    /* transform: scale(1.2); */
+    /* animation: scaleup12 1s linear forward; */
+    animation-name: scaleup12;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    border: 1px solid black;
+}
 .eachMealPic {
     width: 310px;
     height: 410px;
     border-radius: 7px;
     border: 1px solid black;
 
+}
+
+@keyframes scaleup11 {
+    from {
+        transform: scale(1.0);
+    } to {
+        transform: scale(1.12);
+    }
+}
+
+@keyframes scaleup12 {
+    from {
+        transform: scale(1.0);
+    } to {
+        transform: scale(1.15);
+    }
 }
 
 /* Each Meal Detail */
@@ -43,6 +83,7 @@
     background-color: #76eb9f;
     border-radius: 5px;
     padding: 5px 6px;
+    border: 1px solid transparent;
 }
 
 .eachMealName {

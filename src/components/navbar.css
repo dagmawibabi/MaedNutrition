@@ -3,13 +3,17 @@
     justify-content: space-between;
     /* border: 1px solid red; */
     padding: 20px 30px;
+    /* margin: 0px 10px; */
     background-color: whitesmoke;
-    border-bottom: 2px solid rgb(206, 206, 206);
+    /* border-bottom: 2px solid rgb(206, 206, 206); */
+    border-bottom: 4px solid orangered;
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     z-index: 9999;
+    background-color: rgb(18, 18, 18);
+    color: white;
 }
 
 .logo {
@@ -30,6 +34,7 @@
     border: 1px solid black;
     border-radius: 25px;
     background-color: orange;
+    color: black;
 }
 
 .navBarCTA:hover {

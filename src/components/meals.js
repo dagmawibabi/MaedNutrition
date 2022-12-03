@@ -39,6 +39,42 @@ export const Meals = () => {
             "carbohydrates": "30gram",
             "fat": "15gram",
         },
+        {
+            "image": require("../assets/images/food/1.png"),
+            "name": "Chicken and Rice",
+            "price": "$123",
+            "energy": "414kcal",
+            "protien": "36gram",
+            "carbohydrates": "30gram",
+            "fat": "15gram",
+        },
+        {
+            "image": require("../assets/images/food/2.png"),
+            "name": "Chicken and Rice",
+            "price": "$123",
+            "energy": "414kcal",
+            "protien": "36gram",
+            "carbohydrates": "30gram",
+            "fat": "15gram",
+        },
+        {
+            "image": require("../assets/images/food/3.png"),
+            "name": "Chicken and Rice",
+            "price": "$123",
+            "energy": "414kcal",
+            "protien": "36gram",
+            "carbohydrates": "30gram",
+            "fat": "15gram",
+        },
+        {
+            "image": require("../assets/images/food/4.png"),
+            "name": "Chicken and Rice",
+            "price": "$123",
+            "energy": "414kcal",
+            "protien": "36gram",
+            "carbohydrates": "30gram",
+            "fat": "15gram",
+        },
     ];
     return (
         <div className="mealsContainer">
@@ -51,14 +87,13 @@ export const Meals = () => {
             </div>
             <div style={{height: "50px"}}></div>
             <div className="eachMealContainer gridView">
-                <EachMeal mealDetails={listOfMeals[0]}/>
-                <EachMeal mealDetails={listOfMeals[1]}/>
-                <EachMeal mealDetails={listOfMeals[2]}/>
-                <EachMeal mealDetails={listOfMeals[3]}/>
-                <EachMeal mealDetails={listOfMeals[0]}/>
-                <EachMeal mealDetails={listOfMeals[1]}/>
-                <EachMeal mealDetails={listOfMeals[2]}/>
-                <EachMeal mealDetails={listOfMeals[3]}/>
+                {
+                    listOfMeals.map((index, value)=>{
+                        return(
+                            <EachMeal mealDetails={listOfMeals[value]}/>                            
+                        )
+                    })
+                }
             </div>
         </div>
     )
