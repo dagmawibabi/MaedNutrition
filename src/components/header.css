@@ -9,8 +9,9 @@
     justify-content: space-between;
     background-position-x: left;
     padding: 0px 150px;
-    background-color: rgb(26, 26, 26);
-    color: white;
+    color: black;
+    /* background-color: rgb(26, 26, 26); */
+    background-color: whitesmoke;
     /* opacity: 0.2; */
     /* background-color: #ffb366; */
     /* background-color: #68B984; */
