@@ -1,0 +1,42 @@
+.healthyBandContainer {
+    /* height: 0vh; */
+    padding: 100px 400px 150px;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    color: white;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+}
+
+.eachHealthyBandContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.eachHealthBandElement {
+    display: block;
+    color: white;
+    width: fit-content;
+    margin: 0px 50px;
+    /* border: 1px solid red; */
+}
+
+.healthBandIcon {
+    width: 80px;
+    display: block;
+    margin: auto auto;
+    /* border: 1px solid red; */
+}
+
+.eachHealthBandTitle {
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.healthBandTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
