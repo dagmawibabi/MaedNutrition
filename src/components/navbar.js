@@ -3,7 +3,7 @@ import "./navbar.css";
 export const NavBar = () => {
     return (
         <div className="navbarContainer">
-            <span className="logo"> Maed Nutrition</span>
+            <span className="logo"> <span style={{fontSize: "40px", color: "orangered"}}> ማዕድ </span> Nutrition</span>
             <div>
                 <span className="eachNavBarItem"> Who we are </span>
                 <span className="eachNavBarItem"> What we serve </span>

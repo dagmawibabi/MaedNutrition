@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     /* border: 1px solid red; */
+    align-items: center;
     padding: 20px 30px;
     /* margin: 0px 10px; */
     background-color: whitesmoke;
@@ -13,11 +14,12 @@
     right: 0px;
     z-index: 9999;
     background-color: rgb(18, 18, 18);
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 .eachNavBarItem {
