@@ -42,6 +42,7 @@
 }
 .footerIcons {
     width: 25px;
+    height: 25px;
 }
 .footerEnd {
     position: static;
