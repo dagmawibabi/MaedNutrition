@@ -11,22 +11,29 @@
     padding: 0px 150px;
     color: black;
     /* background-color: rgb(26, 26, 26); */
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     /* opacity: 0.2; */
     /* background-color: #ffb366; */
     /* background-color: #68B984; */
     /* border: 1px solid red; */
     /* background-color: rgb(239, 255, 239); */
     border-bottom: 5px solid orange;
+    background-size: cover;
 }
 
 .headerDescription {
     width: fit-content;
     margin: auto auto;
-    padding: 40px 60px;
+    padding: 40px 50px;
     border-radius: 25px;
     /* border: 1px solid red; */
     /* background-color: #ffb366; */
+    /* background-color: orange; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.716);
+    box-shadow: 5px 5px 1px 1px orange;
+    border: 2px solid rgb(224, 162, 46);
+    background-blend-mode: color-dodge;
 }
 
 .mottoAndTagline {
@@ -101,6 +108,9 @@
 /* HEADER IMAGES */
 .headerImagesContainer {
     margin: auto auto;
+    border-radius: 25px;
+    /* border: 1px solid rgb(255, 213, 134); */
+    /* box-shadow: 5px 5px 1px 1px rgb(255, 174, 25); */
 }
 .headerImages {
     width: 25vw;

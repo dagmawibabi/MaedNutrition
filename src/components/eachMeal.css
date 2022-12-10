@@ -1,15 +1,18 @@
 .eachMeal {
-    width: fit-content;
+    /* width: fit-content; */
     /* padding: 10px 20px; */
-    padding: 2px;
+    padding: 4px;
     border-radius: 10px;
     /* margin: 10px; */
-    background-color: grey;
-    width: 312px;
-    height: 505px;
+    /* background-color: orange; */
+    /* width: 312px; */
+    /* height: 505px; */
     /* margin: 0px 30px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: auto auto;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 10px 2px rgb(219, 142, 0);
+    background-color: rgb(255, 184, 52);
 }
 
 .eachMeal:hover {
@@ -19,31 +22,37 @@
     animation-duration: 1s;
     animation-direction: normal;
     animation-fill-mode: forwards;
-    background-color: greenyellow;
-    box-shadow: 0px 0px 50px 5px rgb(205, 255, 205);
+    /* background-color: greenyellow; */
+    box-shadow: 0px 0px 10px 1px rgb(36, 36, 36);
 }
 .eachMeal:hover .eachFoodDetail {
     /* transform: scale(1.1); */
     /* animation: scaleup11 1s linear forward; */
-    animation-name: scaleup11;
+    /* animation-name: scaleup11; */
     animation-duration: 1s;
     animation-direction: normal;
     animation-fill-mode: forwards;
+    border: 2px solid transparent;
+}
+.eachMeal:hover .eachMealPrice {
+    /* color: green; */
 }
 .eachMeal:hover .eachMealCompositionContainer {
     /* transform: scale(1.2); */
     /* animation: scaleup12 1s linear forward; */
-    animation-name: scaleup12;
+    /* animation-name: scaleup12; */
     animation-duration: 1s;
     animation-direction: normal;
     animation-fill-mode: forwards;
-    border: 1px solid black;
+    /* background-color: greenyellow; */
+    /* border: 2px solid orangered; */
 }
+
 .eachMealPic {
-    width: 310px;
-    height: 410px;
+    width: 360px;
+    height: 460px;
     border-radius: 7px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
@@ -59,31 +68,37 @@
     from {
         transform: scale(1.0);
     } to {
-        transform: scale(1.15);
+        transform: scale(1.0);
     }
 }
 
 /* Each Meal Detail */
 .eachFoodDetail {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* background-color: #68B984; */
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     border-radius: 7px;
     padding: 5px 5px;
+    border: 2px solid transparent;
+    background-color: rgb(255, 184, 52);
 }
 
 .foodAndPrice {
     display: flex;
     justify-content: space-between;
     margin-bottom: 6px;
+    
 }
 
 .eachMealCompositionContainer {
     /* background-color: greenyellow; */
-    background-color: #76eb9f;
+    /* background-color: #76eb9f; */
     border-radius: 5px;
     padding: 5px 6px;
     border: 1px solid transparent;
+    
+    background-color: rgb(255, 184, 52);
+
 }
 
 .eachMealName {

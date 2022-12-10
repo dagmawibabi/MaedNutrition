@@ -58,6 +58,15 @@ export const Meals = () => {
             "fat": "15gram",
         },
         {
+            "image": require("../assets/images/food/4.png"),
+            "name": "Chicken and Rice",
+            "price": "$123",
+            "energy": "414kcal",
+            "protien": "36gram",
+            "carbohydrates": "30gram",
+            "fat": "15gram",
+        },
+        {
             "image": require("../assets/images/food/3.png"),
             "name": "Chicken and Rice",
             "price": "$123",
@@ -77,7 +86,7 @@ export const Meals = () => {
         },
     ];
     return (
-        <div className="mealsContainer">
+        <div className="mealsContainer" >
             <div style={{height: "40px"}}></div>
             <div>
                 <span className="sectionTitle"> What We Serve </span>

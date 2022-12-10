@@ -1,15 +1,23 @@
 import "./header.css";
-import people1 from "../assets/images/people/1.JPG";
-import people2 from "../assets/images/people/2.JPG";
-import people3 from "../assets/images/people/3.JPG";
-import people4 from "../assets/images/people/4.JPG";
+// import people1 from "../assets/images/people/1.JPG";
+// import people2 from "../assets/images/people/2.JPG";
+// import people3 from "../assets/images/people/3.JPG";
+// import people4 from "../assets/images/people/4.JPG";
 // import food1 from "../assets/images/food/1.png";
+// import food2 from "../assets/images/food/2.png";
+// import food3 from "../assets/images/food/3.png";
+// import food4 from "../assets/images/food/4.png";
+import header1 from "../assets/images/header/1.png";
+import header2 from "../assets/images/header/2.png";
+import header3 from "../assets/images/header/3.png";
+// import header4 from "../assets/images/header/4.png";
+
 import { useState } from "react";
 import { useEffect } from "react";
 
 export const Header = () => {
     // Carousel
-    let peopleImages = [people1, people2, people3, people4];
+    let peopleImages = [header1, header2, header3];
     const [curHeaderImage, setCurHeaderImage] = useState(1);    
     function changeHeadImage(){
         let a = curHeaderImage;
@@ -25,8 +33,8 @@ export const Header = () => {
 
     return (
         // style={{backgroundImage: `url(${food1})`}}
-        <div className="test"  > 
-            <div className="headerContainer">
+        <div className="test" > 
+            <div className="headerContainer" style={{backgroundImage: `url(${peopleImages[curHeaderImage]})`}} >
                 <div className="headerDescription"> 
                     <div className="mottoAndTagline">
                         <span className="motto">
@@ -39,9 +47,9 @@ export const Header = () => {
                         <span className="headerSecondaryBtn"> Checkout Meals </span>
                     </div>
                 </div>
-                <div className="headerImagesContainer"> 
+                {/* <div className="headerImagesContainer"> 
                     <img className="headerImages" src={peopleImages[curHeaderImage]} alt="athlete" />
-                </div>
+                </div> */}
             </div>
         </div>
     )
