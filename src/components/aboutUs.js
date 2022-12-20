@@ -21,7 +21,7 @@ export const AboutUs = () => {
         setTimeout(changeHeadImage, 4000);
     }, [curHeaderImage]);
     return (
-        <div className="aboutUsContainer" style={{backgroundImage: `url(${peopleImages[curHeaderImage]})`}} > 
+        <div className="aboutUsContainer" > 
             <div className="personCard" style={{display: "block"}}>
                 <div style={{marginBottom: "60px", margin: "auto auto", textAlign: "center"}}>
                     <span className="sectionTitle"> Who we are </span>
@@ -31,7 +31,7 @@ export const AboutUs = () => {
                     <img alt="person" src={require(`../assets/images/people/${curHeaderImage}.png`)} className="person" />
                     <div className="personDescription">
                         <div className="personDetails">
-                            <span className="personPosition"> Founder & CEO </span> <br />
+                            {/* <span className="personPosition"> Founder & CEO </span> <br /> */}
                             <span className="personName"> Sofonias Nebiyu </span> <br />
                             <span className="personTask"> Body Builder </span> <br />
                         </div>

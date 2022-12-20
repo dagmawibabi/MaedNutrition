@@ -1,12 +1,12 @@
 import "./header.css";
-// import people1 from "../assets/images/people/1.JPG";
-// import people2 from "../assets/images/people/2.JPG";
-// import people3 from "../assets/images/people/3.JPG";
-// import people4 from "../assets/images/people/4.JPG";
-// import food1 from "../assets/images/food/1.png";
-// import food2 from "../assets/images/food/2.png";
-// import food3 from "../assets/images/food/3.png";
-// import food4 from "../assets/images/food/4.png";
+import people1 from "../assets/images/people/1.JPG";
+import people2 from "../assets/images/people/2.JPG";
+import people3 from "../assets/images/people/3.JPG";
+import people4 from "../assets/images/people/4.JPG";
+import food1 from "../assets/images/food/1.png";
+import food2 from "../assets/images/food/2.png";
+import food3 from "../assets/images/food/3.png";
+import food4 from "../assets/images/food/4.png";
 import header1 from "../assets/images/header/1.png";
 import header2 from "../assets/images/header/2.png";
 import header3 from "../assets/images/header/3.png";
@@ -17,7 +17,9 @@ import { useEffect } from "react";
 
 export const Header = () => {
     // Carousel
-    let peopleImages = [header1, header2, header3];
+    let headerImage = [header1, header2, header3];
+    let foodImages = [food1, food2, food3, food4];
+    let peopleImages = [people1, people2, people3, people4];
     const [curHeaderImage, setCurHeaderImage] = useState(1);    
     function changeHeadImage(){
         let a = curHeaderImage;
@@ -34,8 +36,17 @@ export const Header = () => {
     return (
         // style={{backgroundImage: `url(${food1})`}}
         <div className="test" > 
-            <div className="headerContainer" style={{backgroundImage: `url(${peopleImages[curHeaderImage]})`}} >
-                <div className="headerDescription"> 
+            <div className="headerContainer" style={{backgroundImage: `url(${headerImage[curHeaderImage]})`}} >
+                <div className="headerImagesContainer"> 
+                    {/* <img className="headerImages" src={peopleImages[curHeaderImage]} alt="athlete" /> */}
+                    <img className="headerImages" src={peopleImages[0]} alt="athlete" />
+                    <img className="headerImages" src={foodImages[0]} alt="athlete" />
+                    <img className="headerImages" src={foodImages[1]} alt="athlete" />
+                    <img className="headerImages" src={foodImages[2]} alt="athlete" />
+                    <img className="headerImages" src={peopleImages[3]} alt="athlete" />
+                </div>
+            </div>
+            <div className="headerDescription"> 
                     <div className="mottoAndTagline">
                         <span className="motto">
                             Eat Like You Train!
@@ -47,10 +58,6 @@ export const Header = () => {
                         <span className="headerSecondaryBtn"> Checkout Meals </span>
                     </div>
                 </div>
-                {/* <div className="headerImagesContainer"> 
-                    <img className="headerImages" src={peopleImages[curHeaderImage]} alt="athlete" />
-                </div> */}
-            </div>
         </div>
     )
 }

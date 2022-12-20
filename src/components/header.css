@@ -3,12 +3,13 @@
 } */
 
 .headerContainer {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     z-index: 9999;
-    justify-content: space-between;
+    justify-content: space-around;
     background-position-x: left;
-    padding: 0px 0px;
+    padding: 100px 0px 50px;
+    margin: 50px 0px 0px;
     color: black;
     /* background-color: rgb(26, 26, 26); */
     /* background-color: whitesmoke; */
@@ -44,7 +45,7 @@
 .motto {
     font-size: 60px;
     font-weight: bold;
-    -webkit-text-stroke: 2px black;
+    /* -webkit-text-stroke: 2px black; */
 }
 
 .tagline {
@@ -113,11 +114,13 @@
 /* HEADER IMAGES */
 .headerImagesContainer {
     margin: auto auto;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     /* border: 1px solid rgb(255, 213, 134); */
     /* box-shadow: 5px 5px 1px 1px rgb(255, 174, 25); */
 }
 .headerImages {
-    width: 25vw;
-    border-radius: 60px;
+    width: 14vw;
+    height: 40vh;
+    border: 1px solid white;
+    /* border-radius: 60px; */
 }
